@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="34px" viewBox="0 0 48 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_菜单栏</title>
+    <desc>Created with Sketch.</desc>
+    <g id="视觉图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8.3订单详情-待审核" transform="translate(-678.000000, -167.000000)" fill="#FFFFFF">
+            <g id="heard" transform="translate(0.000000, 136.000000)">
+                <g id="Group" transform="translate(678.000000, 24.000000)">
+                    <path d="M3,7 L45,7 C46.6568542,7 48,8.34314575 48,10 C48,11.6568542 46.6568542,13 45,13 L3,13 C1.34314575,13 2.02906125e-16,11.6568542 0,10 C-2.02906125e-16,8.34314575 1.34314575,7 3,7 Z M13,21 L45,21 C46.6568542,21 48,22.3431458 48,24 C48,25.6568542 46.6568542,27 45,27 L13,27 C11.3431458,27 10,25.6568542 10,24 C10,22.3431458 11.3431458,21 13,21 Z M23,35 L45,35 C46.6568542,35 48,36.3431458 48,38 C48,39.6568542 46.6568542,41 45,41 L23,41 C21.3431458,41 20,39.6568542 20,38 C20,36.3431458 21.3431458,35 23,35 Z" id="icon_菜单栏"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

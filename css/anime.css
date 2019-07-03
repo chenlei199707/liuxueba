@@ -1,0 +1,91 @@
+.btn {
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:nth-of-type(1) {
+    background-color: #2ecc71;
+}
+
+.btn:nth-of-type(2) {
+    background-color: #3498db;
+}
+
+.btn:nth-of-type(3) {
+    background-color: #e74c3c;
+}
+
+.btn:nth-of-type(4) {
+    background-color: #1abc9c;
+}
+
+.btn.left:after {
+    left: 0;
+}
+
+.btn.right:after {
+    right: 0;
+}
+
+.btn.stroke:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.btn.stroke:active:after {
+    width: 0px;
+    opacity: 1;
+    transition: 0s;
+}
+
+.btn.half-stroke:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+
+.btn.half-stroke:active:after {
+    width: 0px;
+    opacity: 1;
+    transition: 0s;
+}
+
+.btn.bubble:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: auto;
+    border-radius: 50%;
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 0.75s ease-in-out;
+}
+
+.btn.bubble:active:after {
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+    transition: 0s;
+}

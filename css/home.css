@@ -1,0 +1,194 @@
+/*Plugin CSS*/
+@import url('../css/base.css');
+.head-Carousel {
+  width: 100%;
+  padding: 12px;
+}
+.head-Carousel .current {
+  background-color: #3679ff;
+}
+.head-Carousel img {
+  width: 100%;
+  height: auto;
+}
+.head-Carousel ol {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.head-Carousel ol li {
+  width: 8px;
+  height: 8px;
+  margin: 6px 8px;
+  border-radius: 4px;
+  background: #d8d8d8;
+}
+.Service-Items {
+  padding: 20px 35px 32px 12px;
+}
+.Service-Items ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Service-Items ul ul:nth-child(4) {
+  margin-right: 24px;
+}
+.Service-Items ul li {
+  margin: 0px 24px;
+}
+.Service-Items ul li img {
+  width: 40px;
+  height: auto;
+}
+.Service-Items ul li p {
+  width: 48px;
+  text-align: center;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #555555;
+}
+.Service-Items ol {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Service-Items ol li {
+  margin: 0px 24px;
+}
+.Service-Items ol li img {
+  width: 40px;
+  height: auto;
+}
+.Service-Items ol li p {
+  width: 48px;
+  text-align: center;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #555555;
+}
+.current-table {
+  font-size: 16px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #333333;
+  width: 100%;
+  padding: 14px 12px;
+  border-bottom: 1px solid #fbf8fb;
+}
+.table-Detail {
+  padding: 12px 12px 0px;
+}
+.table-Detail .table-Detail-person {
+  padding: 12px 12px 15px;
+  background-color: #fbf8fb;
+}
+.table-Detail .table-Detail-person h3 {
+  font-size: 15px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.table-Detail .table-Detail-person em {
+  color: #555555;
+  margin-right: 7px;
+}
+.table-Detail .table-Detail-person span {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #555555;
+}
+.table-Detail .table-Detail-person .current-table-time {
+  margin: 12px 0px;
+}
+.table-Detail .table-Detail-person .person-name {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.table-Detail .table-Detail-person .person-name span {
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.table-Detail .table-Detail-person .person-name input {
+  margin-left: 12px;
+  width: 34px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #3679ff;
+  font-size: 11px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #3679ff;
+}
+.information {
+  margin-top: 32px;
+  padding: 14px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fbf8fb;
+}
+.information h3 {
+  font-size: 16px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.information span {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #555555;
+}
+.information img {
+  width: 14px;
+  height: auto;
+  background: #ffffff;
+}
+.information-list {
+  padding: 12px;
+}
+.information-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.information-list li .information-list-Icon {
+  box-sizing: border-box;
+  padding-top: 15px;
+  margin-right: 8px;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, #ffe783 0%, #fecb4c 100%);
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 32px;
+  text-align: center;
+}
+.information-list li .information-list-text {
+  width: 240px;
+}
+.information-list li .information-list-text h3 {
+  font-size: 15px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.information-list li .information-list-text p {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #555555;
+}

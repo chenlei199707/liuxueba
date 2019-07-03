@@ -1,0 +1,221 @@
+@import url('./_mixins.less');
+@import url('./common.less');
+
+.bg-line {
+    background-image: linear-gradient(-136deg, #fe811e 0%, #ff4f48 100%);
+    border-radius: 48px;
+}
+
+body {
+    background: #fff;
+}
+
+.account-manage-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    // .head-content {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     background: #fac29c;
+    //     padding: 18px/2 28px/2;
+
+    //     .head-logo {
+    //         display: flex;
+
+    //         .logo-media {
+    //             margin-right: 12px;
+
+    //             img {
+    //                 height: 60px/2;
+    //             }
+    //         }
+    //     }
+
+    //     .head-menu {
+    //         a.link-btn {
+    //             width: 24px;
+    //             height: 24px;
+    //             display: inline-block;
+    //             background-size: 100%;
+    //             background-image: data-uri('image/svg+xml;charset=UTF-8',
+    //                 '../images/svgs/icon_menu.svg'
+    //                 );
+    //             background-repeat: no-repeat;
+    //         }
+    //     }
+    // }
+
+    .account-manage {
+        .account-search {
+            padding: 12px/2 24px/2;
+
+            span {
+                background: #F5F5F5;
+                border-radius: 36px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 32px/2;
+                    height: 32px/2;
+                    background-size: 100%;
+                    background-image: data-uri('image/svg+xml;charset=UTF-8',
+                        '../images/svgs/icon_search.svg'
+                        );
+                    background-repeat: no-repeat;
+                    margin: 0 5px 0 12px;
+                }
+
+                input {
+                    display: block;
+                    background: none;
+                    font-size: 14px;
+                    padding: 12px 5px;
+                    flex: 1;
+                }
+            }
+        }
+
+        .account-content {
+            padding-bottom: 60px;
+            // height: calc(100% - 60px);
+
+            ul {
+                padding: 12px/2 32px/2;
+
+                li {
+                    margin-bottom: 5px;
+                    padding: 18px/2 0;
+                    background: #FFFFFF;
+                    // box-shadow: 0 -1px 0 0 #E9E9E9;
+                    border-bottom: 1px solid #E9E9E9;
+                }
+            }
+
+            .item-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .item-content {
+                    display: flex;
+                    align-items: center;
+
+                    .item-desc {
+                        p.title {
+                            font-family: PingFangSC-Medium;
+                            font-size: 28px/2;
+                            color: #333333;
+                            // line-height: 30px/2;
+                            font-weight: bold;
+                            margin-bottom: 8px;
+                        }
+
+                        p {
+                            font-family: PingFangSC-Regular;
+                            font-size: 24px/2;
+                            color: #666666;
+                            // line-height: 30px/2;
+                            margin-bottom: 6px;
+                            &:last-child{
+                                margin-bottom: 0;
+                            }
+                        }
+
+                    }
+                }
+
+                .item-media {
+                    margin-right: 12px;
+
+                    p.img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .item-switch {
+                    text-align: center;
+
+                    &.active {
+                        a.link-btn {
+                            border: 2px/2 solid #F9524E;
+                            border-radius: 24px/2;
+
+                            span {
+                                font-family: PingFangSC-Regular;
+                                font-size: 24px/2;
+                                color: #F9524E;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    p {
+                        margin-bottom: 5px;
+                        font-family: PingFangSC-Regular;
+                        font-size: 24px/2;
+                        color: #999999;
+                        text-align: center;
+                        line-height: 24px/2;
+                    }
+
+                    a.link-btn {
+                        font-size: 28px/2;
+                        border: 2px/2 solid #0999D9;
+                        border-radius: 24px/2;
+                        display: inline-block;
+                        width: 96px/2;
+                        // height: 48px/2;
+                        padding: 2px 8px;
+
+                        span {
+                            font-family: PingFangSC-Regular;
+                            font-size: 24px/2;
+                            color: #0999D9;
+                            text-align: center;
+                            // line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .account-submit {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 12px 95px/2 0;
+            background-color: #fff;
+
+            a.link-btn {
+                display: block;
+                text-align: center;
+                background-image: linear-gradient(43deg, #F83A3B 0%, #FA675F 100%);
+                box-shadow: 0 6px/2 12px/2 0 rgba(156, 33, 33, 0.20);
+                border-radius: 60px/2;
+                // height: 88px/2;
+                margin-bottom: 24px;
+                padding: 14px 0;
+
+                span {
+                    // line-height: 88px/2;
+                    color: #fff;
+                    font-family: PingFangSC-Medium;
+                    font-size: 32px/2;
+                    color: #FFFEFF;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_添加附件</title>
+    <desc>Created with Sketch.</desc>
+    <g id="视觉图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.2付款证明-已上传" transform="translate(-117.000000, -798.000000)" fill="#CCCCCC">
+            <g id="Group" transform="translate(32.000000, 500.000000)">
+                <g id="Group-3" transform="translate(0.000000, 234.000000)">
+                    <path d="M107,86 L107,66 C107,64.8954305 107.895431,64 109,64 C110.104569,64 111,64.8954305 111,66 L111,86 L131,86 C132.104569,86 133,86.8954305 133,88 C133,89.1045695 132.104569,90 131,90 L111,90 L111,110 C111,111.104569 110.104569,112 109,112 C107.895431,112 107,111.104569 107,110 L107,90 L87,90 C85.8954305,90 85,89.1045695 85,88 C85,86.8954305 85.8954305,86 87,86 L107,86 Z" id="icon_添加附件"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

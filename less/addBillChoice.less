@@ -1,0 +1,342 @@
+@import url('./_mixins.less');
+@import url('./common.less');
+
+.bg-line {
+    background-image: linear-gradient(-136deg, #fe811e 0%, #ff4f48 100%);
+    border-radius: 48px;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.account-manage-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    // .head-content {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     background: #fac29c;
+    //     padding: 18px/2 28px/2;
+
+    //     .head-logo {
+    //         display: flex;
+
+    //         .logo-media {
+    //             margin-right: 12px;
+
+    //             img {
+    //                 height: 60px/2;
+    //             }
+    //         }
+    //     }
+
+    //     .head-menu {
+    //         a.link-btn {
+    //             width: 24px;
+    //             height: 24px;
+    //             display: inline-block;
+    //             background-size: 100%;
+    //             background-image: data-uri('image/svg+xml;charset=UTF-8',
+    //                 '../images/svgs/icon_menu.svg'
+    //                 );
+    //             background-repeat: no-repeat;
+    //         }
+    //     }
+    // }
+
+    .bill-head {
+        padding: 48px/2 120px/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        margin-bottom: 12px;
+
+        .bill-item-content {
+            position: relative;
+            padding-right: 54px;
+            // min-width: 100px/2;
+            text-align: center;
+            margin-right: 4px;
+
+            &.active {
+                .item-circle {
+                    // border: 2px solid #F9524E;
+                    // background: none;
+                    background: rgba(249, 82, 78, .1);
+
+                    span {
+                        color: #F9524E;
+                    }
+                }
+
+                .item-title {
+                    span {
+                        color: #333333;
+                    }
+                }
+
+                &:after {
+                    // background-image: data-uri('../images/svgs/icon_steps.svg');
+                    opacity: 0.3;
+                    background: #F9524E;
+                    border-radius: 3px;
+                }
+            }
+
+            .item-circle {
+                width: 80px/2;
+                height: 80px/2;
+                // border: 2px solid #d8d8d8;
+                border-radius: 50%;
+                text-align: center;
+                margin: auto;
+                background: #F7F7F7;
+                margin-bottom: 6px;
+
+                span {
+                    font-family: PingFangSC-Medium;
+                    font-size: 40px/2;
+                    color: #CCCCCC;
+                    text-align: center;
+                    line-height: 44px;
+                }
+            }
+
+            .item-title {
+                width: 120px/2;
+                text-align: center;
+
+                span {
+                    font-family: PingFangSC-Regular;
+                    font-size: 24px/2;
+                    // color: #F9524E;
+                    text-align: center;
+                    color: #CCCCCC;
+                }
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 18px;
+                width: 104px/2;
+                height: 6px/2;
+                // background-image: data-uri('../images/svgs/icon_steps_grey.svg');
+                // background-size: 100%;
+                // background-position: center;
+                // background-repeat: no-repeat;
+                background: #F7F7F7;
+                border-radius: 3px;
+            }
+
+            &:nth-last-child(1) {
+                padding-right: 0;
+                margin: 0;
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .bill-container {
+        .bill-content {
+            background-color: #fff;
+            margin-bottom: 12px;
+
+            .account-head {
+                padding: 32px/2;
+
+                .item-content {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .item-media {
+                        h3 {
+                            font-family: PingFangSC-Medium;
+                            font-size: 32px/2;
+                            color: #333333;
+                            margin-bottom: 3px;
+                        }
+
+                        p {
+                            font-family: PingFangSC-Regular;
+                            font-size: 24px/2;
+                            color: #999999;
+                        }
+                    }
+
+                    .item-add {
+                        a.link-btn {
+                            border: 1px solid #F9524E;
+                            border-radius: 24px/2;
+                            display: block;
+                            padding: 1px 12px;
+
+                            span {
+                                font-family: PingFangSC-Regular;
+                                font-size: 24px/2;
+                                color: #F9524E;
+                                text-align: center;
+                                // padding: 5px 12px;
+                                display: inline-block;
+                                // line-height: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item-account {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 12px 16px;
+
+                .item-ava {
+                    display: flex;
+                    align-items: center;
+
+                    p.img {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                    }
+
+                    p.title {
+                        font-family: PingFangSC-Regular;
+                        font-size: 28px/2;
+                        color: #333333;
+                    }
+                }
+
+                .item-id {
+                    p {
+                        font-family: PingFangSC-Regular;
+                        font-size: 24px/2;
+                        color: #999999;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        .bill-payment {
+            .payment-head {
+                padding: 32px/2;
+                padding-left: 0;
+                margin-left: 32px/2;
+                border-bottom: 1px solid #f5f5f5;
+
+                .item-content {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .item-media {
+                        h3 {
+                            font-family: PingFangSC-Medium;
+                            font-size: 32px/2;
+                            color: #333333;
+                            margin-bottom: 6px;
+                        }
+
+                        p {
+                            font-family: PingFangSC-Regular;
+                            font-size: 24px/2;
+                            color: #999999;
+                        }
+                    }
+
+                    .item-add {
+                        a.link-btn {
+                            border: 1px solid #F9524E;
+                            border-radius: 24px/2;
+                            display: inline-block;
+                            padding: 3px 12px;
+
+                            span {
+                                font-family: PingFangSC-Regular;
+                                font-size: 24px/2;
+                                color: #F9524E;
+                                text-align: center;
+                                display: inline-block;
+                                // padding: 6px 12px;
+                                // line-height: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .payment-list {
+                .item-content {
+                    padding: 40px/2 32px/2 40px/2 0;
+                    margin-left: 32px/2;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #f5f5f5;
+
+                    .item-media {
+                        p.name {
+                            font-family: PingFangSC-Regular;
+                            font-size: 32px/2;
+                            color: #333333;
+                            margin-bottom: 12px;
+                        }
+
+                        p.title {
+                            font-family: PingFangSC-Regular;
+                            font-size: 28px/2;
+                            color: #666666;
+                            margin-bottom: 8px;
+                        }
+
+                        p.time {
+                            font-family: PingFangSC-Regular;
+                            font-size: 24px/2;
+                            color: #999999;
+                        }
+                    }
+
+                    .item-pay {
+                        p.price {
+                            font-family: PingFangSC-Semibold;
+                            font-size: 32px/2;
+                            color: #F9524E;
+                            letter-spacing: 0;
+                            text-align: right;
+                            margin-bottom: 26px/2;
+                        }
+
+                        a.link-btn {
+                            display: inline-block;
+                            background-image: linear-gradient(43deg, #F83A3B 0%, #FA675F 100%);
+                            box-shadow: 0 6px/2 12px/2 0 rgba(156, 33, 33, 0.20);
+                            border-radius: 32px/2;
+
+                            span {
+                                font-family: PingFangSC-Medium;
+                                font-size: 24px/2;
+                                color: #FFFFFF;
+                                text-align: center;
+                                padding: 16px/2 32px/2;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

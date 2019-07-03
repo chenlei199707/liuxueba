@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>svg/icon_choose</title>
+    <desc>Created with Sketch.</desc>
+    <g id="视觉图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.5资金-委托支付-选择收款人" transform="translate(-688.000000, -757.000000)" fill="#FF6005">
+            <g id="Group" transform="translate(0.000000, 582.000000)">
+                <g id="TableViews/Cell/Input/单行_有单位-Copy" transform="translate(0.000000, 120.000000)">
+                    <g id="分组" transform="translate(686.000000, 48.000000)">
+                        <path d="M12.6923882,21.9350288 L27.1880772,7.43933983 C27.7738636,6.85355339 28.7236111,6.85355339 29.3093975,7.43933983 C29.895184,8.02512627 29.895184,8.97487373 29.3093975,9.56066017 L13.7530483,25.1170094 C13.1672619,25.7027958 12.2175144,25.7027958 11.631728,25.1170094 L2.43933983,15.9246212 C1.85355339,15.3388348 1.85355339,14.3890873 2.43933983,13.8033009 C3.02512627,13.2175144 3.97487373,13.2175144 4.56066017,13.8033009 L12.6923882,21.9350288 Z" id="svg/icon_choose"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

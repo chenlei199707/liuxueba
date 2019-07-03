@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="28px" viewBox="0 0 15 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>svg/icon_pay_forward</title>
+    <desc>Created with Sketch.</desc>
+    <g id="视觉图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="3付款" transform="translate(-655.000000, -1016.000000)" fill="#FFFFFF">
+            <g id="分组-6" transform="translate(32.000000, 232.000000)">
+                <g id="分组-5" transform="translate(32.000000, 766.000000)">
+                    <g id="icon_forward_white" transform="translate(574.000000, 8.000000)">
+                        <path d="M31.5814755,24.5814755 L19.5606602,36.6022907 C18.9748737,37.1880772 18.0251263,37.1880772 17.4393398,36.6022907 C16.8535534,36.0165043 16.8535534,35.0667568 17.4393398,34.4809704 L28.3994949,23.5208153 L17.4393398,12.5606602 C16.8535534,11.9748737 16.8535534,11.0251263 17.4393398,10.4393398 C18.0251263,9.85355339 18.9748737,9.85355339 19.5606602,10.4393398 L31.5814755,22.4601551 C32.1672619,23.0459415 32.1672619,23.995689 31.5814755,24.5814755 Z" id="svg/icon_pay_forward"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

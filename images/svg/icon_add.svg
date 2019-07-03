@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>svg/icon_add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="视觉图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.5资金-委托支付-选择收款人" transform="translate(-281.000000, -1132.000000)" fill="#999999">
+            <g id="Group" transform="translate(0.000000, 582.000000)">
+                <g id="TableViews/Cell/Input/单行_有单位-Copy-4" transform="translate(0.000000, 504.000000)">
+                    <g id="分组-3" transform="translate(275.000000, 40.000000)">
+                        <g id="分组-2">
+                            <path d="M15,15 L15,7 C15,6.44771525 15.4477153,6 16,6 C16.5522847,6 17,6.44771525 17,7 L17,15 L25,15 C25.5522847,15 26,15.4477153 26,16 C26,16.5522847 25.5522847,17 25,17 L17,17 L17,25 C17,25.5522847 16.5522847,26 16,26 C15.4477153,26 15,25.5522847 15,25 L15,17 L7,17 C6.44771525,17 6,16.5522847 6,16 C6,15.4477153 6.44771525,15 7,15 L15,15 Z" id="svg/icon_add"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

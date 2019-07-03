@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_已选择</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_已选择" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+            <path d="M13.5710678,20.8137085 L25.9454365,8.43933983 C26.5312229,7.85355339 27.4809704,7.85355339 28.0667568,8.43933983 C28.6525433,9.02512627 28.6525433,9.97487373 28.0667568,10.5606602 L14.631728,23.995689 C14.0459415,24.5814755 13.0961941,24.5814755 12.5104076,23.995689 L5.43933983,16.9246212 C4.85355339,16.3388348 4.85355339,15.3890873 5.43933983,14.8033009 C6.02512627,14.2175144 6.97487373,14.2175144 7.56066017,14.8033009 L13.5710678,20.8137085 Z" id="Path" fill="#F9524E"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta class="" name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no,email=no" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="x5-orientation" content="portrait" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>去支付</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/addTopay.css" />
+</head>
+
+<body>
+  <div class="add-topay-container">
+    <div class="head-content">
+      <div class="head-logo">
+        <div class="logo-media">
+          <img src="./images/img_union_logo.png" alt="" />
+        </div>
+        <div class="logo-media">
+          <img src="./images/img_liuxue.png" alt="" />
+        </div>
+      </div>
+      <div class="head-menu">
+        <a href="javascript:;" class="link-btn lin-menu">
+          <span class="icon-btn icon-btn-menu"></span>
+        </a>
+      </div>
+    </div>
+    <div class="bill-head">
+      <div class="bill-item-content active selected">
+        <div class="item-circle">
+          <span>1</span>
+        </div>
+        <div class="item-title">
+          <span>账单选择</span>
+        </div>
+      </div>
+
+      <div class="bill-item-content active  selected">
+        <div class="item-circle">
+          <span>2</span>
+        </div>
+        <div class="item-title">
+          <span>付款证明</span>
+        </div>
+      </div>
+
+      <div class="bill-item-content active">
+        <div class="item-circle">
+          <span>3</span>
+        </div>
+        <div class="item-title">
+          <span>支付</span>
+        </div>
+      </div>
+    </div>
+    <!-- 支付的内容 -->
+    <div class="bill-content">
+      <!-- 住宿费 -->
+      <div class="bill-hotel-expense">
+        <div class="hotel-title">
+          <p>2018第一学期住宿费</p>
+        </div>
+        <div class="hotel-name">
+          <p>奥斯卡 ABC大学</p>
+        </div>
+        <div class="hotel-price">
+          <p>￥1569.80</p>
+        </div>
+        <div class="hotel-detail">
+          <div class="bill-amount">
+            <span class="title">账单金额</span>
+            <span class="num">￥8,900.00 </span>
+          </div>
+          <div class="bill-amount bill-fee">
+            <span class="title">手续费</span>
+            <span class="num">￥108.00 </span>
+          </div>
+        </div>
+      </div>
+      <!-- 支付方式 -->
+      <div class="bill-pay-ways" id="payWay">
+        <div class="pay-title">
+          <p>支付方式</p>
+        </div>
+        <div class="pay-ul">
+          <ul>
+            <li class="pay-kind-li">
+              <div class="item-content">
+                <div class="item-name">
+                  支付类别
+                </div>
+                <div class="item-bank">
+                  <!-- <i class="icon-union">
+                    <img src="images\img_union_logo.png" alt="" />
+                  </i> -->
+                  <img src="images\img_union_logo.png" alt="" />
+                  <span class="bank-pay arrow">银联支付</span>
+                </div>
+              </div>
+            </li>
+            <li class="pay-way-li">
+              <div class="item-content">
+                <div class="item-name">
+                  付款方式
+                </div>
+                <div class="item-bank">
+                  <i class="icon-union"></i>
+                  <span class="bank-pay arrow">一次性付款</span>
+                </div>
+              </div>
+            </li>
+            <li class="pay-fee-li">
+              <div class="item-content">
+                <div class="item-name">
+                  手续费
+                </div>
+                <div class="item-bank">
+                  <i class="icon-union"></i>
+                  <span class="bank-pay arrow">特惠中0.2%，200元封顶</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 总价展示 -->
+      <div class="bill-pay-total">
+        <div class="pay-total">
+          <div class="item-name">
+            <p class="name">总金额</p>
+            <p class="desc">拆单支付 (共5笔)</p>
+          </div>
+          <div class="item-num">
+            <p>￥9,008.00</p>
+          </div>
+        </div>
+        <div class="pay-list">
+          <ul>
+            <li>
+              <div class="item-count">
+                <span class="name">第一笔</span>
+                <span class="pay">
+                  已支付
+                </span>
+              </div>
+              <div class="item-num">
+                <span>￥1569.80</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-count">
+                <span class="name">第一笔</span>
+                <span class="pay pay-wait">
+                  待支付
+                </span>
+              </div>
+              <div class="item-num">
+                <span>￥1569.80</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 继续支付 -->
+      <div class="pay-aways">
+        <a href="addTopaySuc.html" class="link-btn link-pay">
+          <span>立即缴费</span>
+        </a>
+      </div>
+    </div>
+    <!-- 弹窗modal -->
+    <div class="bank-model bank-setion" id="bankSectionKind" style="display: none;">
+      <div class="cover"></div>
+      <div class="bank-list">
+        <h3>
+          选择支付类别
+          <a href="javascript:;" class="link-btn link-close">
+            <span>x</span>
+          </a>
+        </h3>
+        <div class="item-sec">
+          <a href="javascript:;" class="link-btn link-item">
+            <span>请选择</span>
+          </a>
+        </div>
+        <ul>
+          <li class="active">
+            <div class="item-bank">
+              <div class="item-content">
+                <p>银联卡</p>
+              </div>
+              <div class="item-section">
+                <a href="javascript:;" class="link-btn link-sec"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-bank">
+              <div class="item-content">
+                <p>微信支付</p>
+              </div>
+              <div class="item-section">
+                <a href="javascript:;" class="link-btn link-sec"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-bank">
+              <div class="item-content">
+                <p>支付宝</p>
+              </div>
+              <div class="item-section">
+                <a href="javascript:;" class="link-btn link-sec"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bank-model bank-setion" id="bankSection" style="display: none;">
+      <div class="cover"></div>
+      <div class="bank-list">
+        <h3>
+          选择付款方式
+          <a href="javascript:;" class="link-btn link-close">
+            <span>x</span>
+          </a>
+        </h3>
+        <div class="item-sec">
+          <a href="javascript:;" class="link-btn link-item">
+            <span>请选择</span>
+          </a>
+          <a href="javascript:;" class="link-btn ">
+            <span>具体拆单方式</span>
+          </a>
+        </div>
+        <div class="item-ul">
+          <ul class="item-kind-ul">
+            <li>
+              <div class="item-bank">
+                <div class="item-content">
+                  <p>一次性付款</p>
+                </div>
+                <div class="item-section">
+                  <a href="javascript:;" class="link-btn link-sec"></a>
+                </div>
+              </div>
+            </li>
+            <li class="active">
+              <div class="item-bank">
+                <div class="item-content">
+                  <p>拆单支付</p>
+                </div>
+                <div class="item-section">
+                  <a href="javascript:;" class="link-btn link-sec"></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="item-num-ul" style="display:none">
+            <li>
+              <div class="item-bank">
+                <div class="item-content">
+                  <p>一期</p>
+                </div>
+                <div class="item-section">
+                  <a href="javascript:;" class="link-btn link-sec"></a>
+                </div>
+              </div>
+            </li>
+            <li class="active">
+              <div class="item-bank">
+                <div class="item-content">
+                  <p>二期</p>
+                </div>
+                <div class="item-section">
+                  <a href="javascript:;" class="link-btn link-sec"></a>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="item-bank">
+                <div class="item-content">
+                  <p>三期</p>
+                </div>
+                <div class="item-section">
+                  <a href="javascript:;" class="link-btn link-sec"></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bank-tip">
+          <p>
+            选择拆单支付，将大额的付款订单拆分成N笔小金额分别进行支付。
+            注意:N笔小金额必须当日全部支付完成,否则此订单支付失败并原路退回已支付的金额
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="pulldown-model" id="eject" style="display: none;">
+    <div class="Pulldown">
+      <div class="popup">
+        <span></span>
+        <ul id="point">
+          <li>
+            <a href="addMyOrder.html">订单</a>
+          </li>
+          <li>
+            <a href="accountHelpDetail.html">帮助</a>
+          </li>
+          <li>
+            <a href="javascript:;">客服</a>
+          </li>
+          <li>
+            <a href="accountManage.html">管理</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/layui/layui.js"></script>
+<script src="./js/lib.js"></script>
+<script>
+  $("#bankSection,#bankSectionKind")
+    .find(".link-close")
+    .click(function () {
+      $(this)
+        .parents(".bank-model")
+        .fadeOut(100);
+    });
+  $("#payWay")
+    .find("ul>li.pay-way-li")
+    .click(function () {
+      $("#bankSection").fadeIn(100);
+    });
+  $("#payWay")
+    .find("ul>li.pay-kind-li")
+    .click(function () {
+      $("#bankSectionKind").fadeIn(100);
+    });
+</script>
+<script>
+  $('.item-sec .link-btn').click(function () {
+    var index = $(this).index()
+    $(this).addClass('link-item').siblings().removeClass('link-item')
+    $('.item-ul ul').eq(index).show().siblings().hide()
+
+  })
+  $('.item-kind-ul li').click(function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  })
+  $('.item-num-ul li').click(function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  })
+</script>
+
+</html>

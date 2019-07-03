@@ -1,0 +1,50 @@
+{
+  "dependencies": {},
+  "name": "h5-package",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-environments": "^0.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-manifest": "^0.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev-client": "*",
+    "gulp-rev-collector-client": "*",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.10",
+    "minifyjs": "^0.2.0",
+    "postcss": "^5.2.4",
+    "run-sequence": "^1.2.2",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "less-watch-compiler css css index.less",
+    "postcss": "postcss -u autoprefixer -o css/index.css css/index.css",
+    "dev": "gulp --env development",
+    "build": "gulp --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/cyqzl/h5-lingyikejikeji.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
